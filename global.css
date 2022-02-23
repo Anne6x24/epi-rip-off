@@ -253,3 +253,6 @@ table tr:last-child td:last-child {
 .highlight .component .component .component .component {
   outline: 1px solid darkred;
 }
+body {
+  margin-bottom: 100px;
+}
