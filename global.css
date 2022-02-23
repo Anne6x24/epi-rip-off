@@ -1,0 +1,255 @@
+:root {
+  /*https://jonasholbech.github.io/color-generator/*/
+  --color-blue-0: hsl(204, 69%, 12%);
+  --color-blue-50: hsl(204, 69%, 16%);
+  --color-blue-100: hsl(204, 69%, 21%);
+  --color-blue-150: hsl(204, 69%, 25%);
+  --color-blue-200: hsl(204, 69%, 29%);
+  --color-blue-250: hsl(204, 69%, 33%);
+  --color-blue-300: hsl(204, 69%, 38%);
+  --color-blue-350: hsl(204, 69%, 42%);
+  --color-blue-400: hsl(204, 69%, 46%);
+  --color-blue-450: hsl(204, 69%, 50%);
+  --color-blue-500: hsl(204, 69%, 55%);
+  --color-blue-550: hsl(204, 69%, 59%);
+  --color-blue-600: hsl(204, 69%, 63%);
+  --color-blue-650: hsl(204, 69%, 67%);
+  --color-blue-700: hsl(204, 69%, 72%);
+  --color-blue-750: hsl(204, 69%, 76%);
+  --color-blue-800: hsl(204, 69%, 80%);
+  --color-blue-850: hsl(204, 69%, 84%);
+  --color-blue-900: hsl(204, 69%, 89%);
+  --color-blue-950: hsl(204, 69%, 93%);
+  --color-grey-0: hsl(0, 0%, 12%);
+  --color-grey-50: hsl(0, 0%, 16%);
+  --color-grey-100: hsl(0, 0%, 21%);
+  --color-grey-150: hsl(0, 0%, 25%);
+  --color-grey-200: hsl(0, 0%, 29%);
+  --color-grey-250: hsl(0, 0%, 33%);
+  --color-grey-300: hsl(0, 0%, 38%);
+  --color-grey-350: hsl(0, 0%, 42%);
+  --color-grey-400: hsl(0, 0%, 46%);
+  --color-grey-450: hsl(0, 0%, 50%);
+  --color-grey-500: hsl(0, 0%, 55%);
+  --color-grey-550: hsl(0, 0%, 59%);
+  --color-grey-600: hsl(0, 0%, 63%);
+  --color-grey-650: hsl(0, 0%, 67%);
+  --color-grey-700: hsl(0, 0%, 72%);
+  --color-grey-750: hsl(0, 0%, 76%);
+  --color-grey-800: hsl(0, 0%, 80%);
+  --color-grey-850: hsl(0, 0%, 84%);
+  --color-grey-900: hsl(0, 0%, 89%);
+  --color-grey-950: hsl(0, 0%, 93%);
+  --border-radius-big: 12px;
+  --border-radius-medium: 6px;
+  --border-radius-small: 3px;
+}
+* {
+  box-sizing: border-box;
+}
+img,
+video,
+iframe,
+audio {
+  max-width: 100%;
+  height: auto;
+}
+html {
+  font-size: 100%;
+}
+body {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+code,
+pre,
+kbd,
+var {
+  font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+}
+pre {
+  border: 1px solid var(--color-grey-600);
+  padding: 1rem;
+  background: var(--color-grey-950);
+  white-space: pre-wrap;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+h2 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+h5 {
+  font-size: 1.125rem;
+}
+h6,
+figcaption {
+  font-size: 0.8rem;
+}
+p {
+  max-width: 65ch;
+}
+cite {
+  font-style: italic;
+}
+blockquote {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+dt {
+  font-weight: 600;
+}
+dd {
+  color: var(--color-grey-250);
+  width: auto;
+}
+summary {
+  font-weight: bold;
+}
+ul,
+ol {
+  padding-left: 1.5rem;
+  list-style-position: inside;
+}
+input,
+button,
+select,
+textarea {
+  padding: 0.5rem;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: var(--color-grey-800);
+  margin-left: 0;
+  margin-right: 0;
+}
+input:not([type="checkbox"], [type="radio"]),
+select,
+button,
+textarea {
+  width: 100%;
+}
+input[disabled],
+button[disabled] {
+  color: var(--color-grey-600);
+  cursor: not-allowed;
+}
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+  background-color: white;
+  cursor: pointer;
+
+  margin-top: 1rem;
+}
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 1px 1px 7px -4px #000000;
+}
+label {
+  display: block;
+  cursor: pointer;
+}
+label:has(input[type="checkbox"]),
+label:has(input[type="radio"]) {
+  display: inline;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+table {
+  border-radius: var(--border-radius-medium);
+  margin: 0;
+  padding: 0;
+  border-collapse: collapse;
+  border: 0;
+  box-shadow: 1px 1px 2px grey;
+}
+th,
+td {
+  padding: 0.5rem 1rem;
+}
+thead th {
+  background: rgb(238, 242, 245);
+  font-weight: normal;
+}
+tbody th,
+tfoot th {
+  background: white;
+}
+thead th:first-child,
+table > tbody > tr > th:first-child {
+  border-top-left-radius: var(--border-radius-medium);
+}
+thead th:last-child,
+table > tbody > tr th:last-child {
+  border-top-right-radius: var(--border-radius-medium);
+}
+tr {
+  border-bottom: 1px solid var(--color-grey-800);
+}
+td {
+  background-color: white;
+}
+table tr:last-child td:first-child {
+  border-bottom-left-radius: var(--border-radius-medium);
+}
+table tr:last-child td:last-child {
+  border-bottom-right-radius: var(--border-radius-medium);
+}
+/*blockquote {
+	  https://codepen.io/brianhaferkamp/pen/VwLoOee
+	padding: 1.5rem 1.5rem 1.5rem 0;
+	margin-left: 0;
+	font-size: 1.5rem;
+	line-height: 1.5;
+	font-weight: 700;
+	font-family: serif;
+	font-style: italic;
+  }
+  @media (min-width: 768px) {
+	blockquote {
+	  margin: 0 0 0 -3rem;
+	  width: 50%;
+	  float: left;
+	  padding: 3rem 3rem 3rem 0;
+	}
+  }
+  */
+
+.wrapper {
+  max-width: 750px;
+  margin: auto;
+}
+.highlight .component {
+  outline: 4px solid hotpink;
+  outline-offset: -6px;
+}
+.highlight .component .component {
+  outline: 3px solid lightblue;
+}
+.highlight .component .component .component {
+  outline: 2px solid royalblue;
+}
+.highlight .component .component .component .component {
+  outline: 1px solid darkred;
+}
