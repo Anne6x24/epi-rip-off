@@ -3,7 +3,7 @@
   export let i;
 </script>
 
-<article>
+<article class="component">
   <img src={`https://picsum.photos/id/${i}/400/400`} alt="" />
   <h3>{dish.name}</h3>
   <p>{dish.desc}</p>

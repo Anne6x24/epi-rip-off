@@ -1,12 +1,13 @@
 <script>
   import RecipeCard from "./RecipeCard.svelte";
+  import Container from "./Container.svelte";
   import { related } from "./data/related";
 </script>
 
 <section class="component">
   <h2>Read more</h2>
   {#each related as dish, i (i)}
-    <RecipeCard {dish} {i} />
+    <Container><RecipeCard {dish} {i} /></Container>
   {/each}
 </section>
 
