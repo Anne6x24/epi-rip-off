@@ -1,0 +1,22 @@
+:root {
+	--primary-font-color: white;
+	--ghost-font-color: black;
+	--primary-color:blue;
+	--secondary-color: hotpink;
+	--accent-color: green;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: "futura";
+}
+
+.hej {
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+}
+
