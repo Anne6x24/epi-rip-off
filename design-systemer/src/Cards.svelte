@@ -6,10 +6,10 @@
 
 
 <section class="card">
-<img src="/img/stolthed.png" alt="">
+<img src="/public/favicon.png" alt="">
 <div class="flex">
-<h3>Shoes!</h3>
-<Badge type="secondary">NEW</Badge>
+<h3>Shoes! <Badge type="secondary">NEW</Badge></h3>
+
 </div>
 <p>If a dog chewes shoes whoes shoes does he choose?</p>
 <Badge type="ghost_border">Fashion</Badge>
