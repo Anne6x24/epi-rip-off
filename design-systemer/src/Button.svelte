@@ -14,6 +14,7 @@
         background: grey;
         padding: 0.8rem;
         font-family: "futura";
+        margin-block: 1rem;
     }
 
     button:hover{

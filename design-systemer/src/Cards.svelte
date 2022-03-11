@@ -25,10 +25,12 @@
        border-radius: 10px 10px 10px 10px;
        box-shadow: 2px 10px darkgrey;
        
+       
    }
    
    img {
-       max-width: 20rem;
+       max-width: 25rem;
+       border-radius: 15px 15px 0px 0px;
    }
    .flex {
        display: flex;

@@ -13,10 +13,10 @@
         background: grey;
         border-radius: 25px 25px 25px 25px;
         border: none;
-        padding-top: 2px;
-        padding-bottom: 2px;
         font-family: "futura";
         font-weight: 400;
+        padding: 0.1rem;
+        margin-block: 1rem ;
     }
 
   
