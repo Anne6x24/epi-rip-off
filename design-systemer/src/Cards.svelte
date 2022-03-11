@@ -6,7 +6,7 @@
 
 
 <section class="card">
-<img src="/public/favicon.png" alt="">
+<img src="./stolthed.png" alt="">
 <div class="flex">
 <h3>Shoes! <Badge type="secondary">NEW</Badge></h3>
 
@@ -24,8 +24,12 @@
        width: 25rem;
        border-radius: 10px 10px 10px 10px;
        box-shadow: 2px 10px darkgrey;
+       
    }
    
+   img {
+       max-width: 20rem;
+   }
    .flex {
        display: flex;
    }
